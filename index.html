@@ -215,10 +215,40 @@ src="https://www.facebook.com/tr?id=1443708194275671&ev=PageView&noscript=1"
       font-weight: 900;
       color: var(--primary-green);
       line-height: 1;
-      margin: 10px 0 24px 0;
+      margin: 10px 0 20px 0;
       text-shadow: 0 0 30px var(--green-glow);
       font-variant-numeric: tabular-nums;
       letter-spacing: -2px;
+    }
+
+    /* CTA Button Redesign */
+    .cta-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: linear-gradient(135deg, #00ff66 0%, #00cc52 100%);
+      color: #000000;
+      font-size: 18px;
+      font-weight: 800;
+      text-decoration: none;
+      padding: 18px 16px;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px var(--green-glow);
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px; /* Space before features list */
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(0, 255, 102, 0.6);
+    }
+
+    .cta-button:active {
+      transform: translateY(1px);
     }
 
     /* Features List Styling */
@@ -278,35 +308,6 @@ src="https://www.facebook.com/tr?id=1443708194275671&ev=PageView&noscript=1"
       color: #ffffff;
       text-decoration: underline;
       text-underline-offset: 3px;
-    }
-
-    /* CTA Button Redesign */
-    .cta-button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      background: linear-gradient(135deg, #00ff66 0%, #00cc52 100%);
-      color: #000000;
-      font-size: 18px;
-      font-weight: 800;
-      text-decoration: none;
-      padding: 18px 16px;
-      border-radius: 14px;
-      box-shadow: 0 8px 30px var(--green-glow);
-      cursor: pointer;
-      border: none;
-      transition: all 0.2s ease;
-      letter-spacing: 0.5px;
-    }
-
-    .cta-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 35px rgba(0, 255, 102, 0.6);
-    }
-
-    .cta-button:active {
-      transform: translateY(1px);
     }
 
     /* Footer Links */
@@ -426,7 +427,13 @@ src="https://www.facebook.com/tr?id=1443708194275671&ev=PageView&noscript=1"
       </div>
     </div>
 
+    <!-- Countdown Timer -->
     <div class="timer" id="countdown">5</div>
+
+    <!-- Telegram Button Placed Below Timer -->
+    <a href="https://t.me/+u1tJEYDJG8JiMjFl" class="cta-button" target="_blank">
+      JOIN FREE CHANNEL 🚀
+    </a>
 
     <ul class="features-list">
       <li>✅ SMC, Gold Forex, BTC Setups 🏆</li>
@@ -440,11 +447,6 @@ src="https://www.facebook.com/tr?id=1443708194275671&ev=PageView&noscript=1"
     <div class="promo-banner">
       📢 PAID PROMOTION: <a href="https://t.me/+56OKUJQwnOZlNjQ1" target="_blank">@ShriRam Media Agency</a>
     </div>
-
-    <!-- Updated CTA Link -->
-    <a href="https://t.me/+ycV5j-dF-j1mNjJl" class="cta-button" target="_blank">
-      JOIN FREE CHANNEL 🚀
-    </a>
   </div>
 
   <!-- Footer Info Links -->
